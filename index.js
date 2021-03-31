@@ -12,12 +12,21 @@ function scuberGreetingForFeet(feet){
 } 
 }
   function ternaryCheckCity(city){
-    let city = NYC;
- 
-    city = NYC ? (city = true) : (city= false);
-    // => true
-   return "Ok, sounds good."
+    city === 'NYC' ? true: false;
+    return city === "NYC" ? "Ok, sounds good." : "No go.";
+  
   }
-function switchOnCharmFromTip(){
+function switchOnCharmFromTip(tip){
 
+switch (tip) {
+    case 'generous':
+      return "Thank you so much.";
+      
+    case 'not as generous':
+      return "Thank you.";
+  
+      default: 'if anything else';
+        return "Bye.";
+}
+  
 }
