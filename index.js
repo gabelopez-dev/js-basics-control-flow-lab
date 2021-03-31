@@ -1,18 +1,16 @@
-function scuberGreetingForFeet(<=199){
-  if (199) {
-    //  this one is one me
-  } else function (>199) { 'charges 30 dollars for a distance over 2000 feet' } 
-    // block of code to be executed if the condition is false
+function scuberGreetingForFeet(feet){
+  if (feet <=399) { 
+    return 'This one is on me!';} 
+  else if (feet >400 && feet < 2500); {
+    return 'I will gladly take your thirty bucks.';
+    // charges 30 dollars for a distance over 2000 feet'
   }
-}
+} 
 
-function ternaryCheckCity(){
- 
-    return (condition '199');
-  }
-  
-  console.log(getFee(true));
-  // expected output: "This one is on me!"
+  function ternaryCheckCity(){
+    return (feet);
+    console.log(getFee(true));
+  // expected output: 
 
 function switchOnCharmFromTip(){
 
